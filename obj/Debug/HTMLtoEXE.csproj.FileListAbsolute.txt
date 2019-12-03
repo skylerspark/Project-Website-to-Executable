@@ -1,0 +1,15 @@
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\TemplateApp\package.json
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\TemplateApp\mainElectron.js
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.exe.config
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.exe
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.pdb
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\FlatUI.dll
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.Form1.resources
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.Properties.Resources.resources
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.csproj.GenerateResource.cache
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.csproj.CoreCompileInputs.cache
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.csproj.CopyComplete
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.exe
+C:\Users\Schneider\source\repos\HTMLtoEXE\obj\Debug\HTMLtoEXE.pdb

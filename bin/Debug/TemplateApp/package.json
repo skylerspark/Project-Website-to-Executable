@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "version": "",
+  "description": "WtE",
+  "main": "mainElectron.js",
+  "scripts": {
+    "start": "electron .",
+	"build": "electronbuilder ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.2"
+  },
+  "build": {
+    "win": {
+      "target": ["portable"]
+    },
+    "portable": {
+      "artifactName": "ElectronApp.exe"
+    }
+  }
+}
