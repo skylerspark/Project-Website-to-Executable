@@ -53,7 +53,7 @@ namespace HTMLtoEXE
         {
             Directory.CreateDirectory(Application.StartupPath + "\\Site");
             File.WriteAllBytes(site + "package.json", Properties.Resources.package);
-            File.WriteAllText(site + "mainElectron.js", Properties.Resources.mainElectron);
+            File.WriteAllText(site + "mainElectron.js", "const { app,BrowserWindow } = require('electron');\r\n\r\nlet win;\r\n\r\nfunction createWindow () {\r\n  win = new BrowserWindow({\r\n    width: "+textBox4.Text+",\r\n    height: "+textBox5.Text+",\r\n    webPreferences: {\r\n      nodeIntegration: true\r\n    }\r\n  });\r\n\r\n  win.loadFile('index.html');\r\n  win.on('closed', () => {\r\n    win = null\r\n  });\r\n  win.autoHideMenuBar = true;\r\n  win.resizable = false;\r\n}\r\n\r\napp.on('ready', createWindow);\r\n\r\napp.on('window-all-closed', () => {\r\n  if (process.platform !== 'darwin') {\r\n    app.quit();\r\n  }\r\n});\r\n\r\napp.on('activate', () => {\r\n  if (win === null) {\r\n    createWindow();\r\n  }\r\n});\r\n");
 
             string json = File.ReadAllText(site + "package.json");
             dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
@@ -104,6 +104,21 @@ namespace HTMLtoEXE
             process.WaitForExit();
 
             MessageBox.Show("electron builder has been installed on your computer ^_^");
+        }
+
+        private void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
