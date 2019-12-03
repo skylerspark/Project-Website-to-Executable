@@ -1,5 +1,3 @@
-C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\TemplateApp\package.json
-C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\TemplateApp\mainElectron.js
 C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.exe.config
 C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.exe
 C:\Users\Schneider\source\repos\HTMLtoEXE\bin\Debug\HTMLtoEXE.pdb

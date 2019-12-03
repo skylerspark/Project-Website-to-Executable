@@ -52,8 +52,8 @@ namespace HTMLtoEXE
         private void Button2_Click(object sender, EventArgs e)
         {
             Directory.CreateDirectory(Application.StartupPath + "\\Site");
-            File.Copy(template + "mainElectron.js", site + "mainElectron.js", true);
-            File.Copy(template + "package.json", site + "package.json", true);
+            File.WriteAllBytes(site + "package.json", Properties.Resources.package);
+            File.WriteAllText(site + "mainElectron.js", Properties.Resources.mainElectron);
 
             string json = File.ReadAllText(site + "package.json");
             dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
